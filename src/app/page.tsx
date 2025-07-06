@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { GlowingEffectDemo } from "@/components/glowingEffectDemo";
+import { NavbarDemo } from "@/components/navBarDemo";
+import { InfiniteMovingCardsDemo } from "@/components/infiniteMovingCardsDemo";
 
 export default function Home() {
   return (
@@ -13,7 +15,9 @@ export default function Home() {
           height={38}
           priority
         /> */}
+        <NavbarDemo />
         <GlowingEffectDemo />
+        <InfiniteMovingCardsDemo />
         
 
         
