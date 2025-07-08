@@ -2,6 +2,7 @@ import Image from "next/image";
 import { GlowingEffectDemo } from "@/components/glowingEffectDemo";
 import { NavbarDemo } from "@/components/navBarDemo";
 import { InfiniteMovingCardsDemo } from "@/components/infiniteMovingCardsDemo";
+import { AnimatedModalDemo } from "@/components/animatedModalDemo";
 
 export default function Home() {
   return (
@@ -18,7 +19,6 @@ export default function Home() {
         <NavbarDemo />
         <GlowingEffectDemo />
         <InfiniteMovingCardsDemo />
-        
 
         
       </main>
