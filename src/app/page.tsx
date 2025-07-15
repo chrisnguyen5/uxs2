@@ -3,10 +3,13 @@ import { GlowingEffectDemo } from "@/components/glowingEffectDemo";
 import { NavbarDemo } from "@/components/navBarDemo";
 import { InfiniteMovingCardsDemo } from "@/components/infiniteMovingCardsDemo";
 import { AnimatedModalDemo } from "@/components/animatedModalDemo";
+import { BackgroundBeamsDemo } from "@/components/backgroundBeamsDemo";
+import { CoverDemo } from "@/components/coverDemo";
+import { FlipWordsDemo } from "@/components/flipWordsDemo";
+import { HeroHighlightDemo } from "@/components/heroHighlightDemo";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         {/* <Image
           className="dark:invert"
@@ -17,16 +20,11 @@ export default function Home() {
           priority
         /> */}
         <NavbarDemo />
+        <BackgroundBeamsDemo />
+       <HeroHighlightDemo />
         <GlowingEffectDemo />
         <InfiniteMovingCardsDemo />
-
         
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        
-        
-        
-      </footer>
-    </div>
   );
 }
